@@ -1,0 +1,189 @@
+/**************************************FOND D'ECRAN***********************************/
+
+/*Fond bleu avec gradient*/
+body {
+  background-image: -webkit-gradient(
+    linear,
+    0% 0%,
+    0% 100%,
+    from(#66cccc),
+    to(#336666)
+  );
+}
+
+/************************************ELEMENT PRINCIPAL*********************************/
+
+/*Dimension de la calculatrice*/
+#calculatrice {
+  width: 260px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/*Bordure de la calcultrice*/
+#calculatrice {
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: -8px -4px black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+/*Couleur de la calculatrice*/
+#calculatrice {
+  background-color: grey;
+}
+
+/***********************************ECRAN CALCULATRICE********************************/
+
+/*Dimension de l'ecran*/
+#screen {
+  height: 60px;
+  width: 220px;
+}
+
+/*Centrer l'ecran*/
+#screen {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+/*Couleur et distance avec les touches de l'ecran*/
+#screen {
+  background-color: rgb(128, 156, 128);
+  margin-bottom: 15px;
+}
+
+/*Bordure de l'ecran*/
+#screen {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  border-bottom-width: 5px;
+  border-left-width: 5px;
+}
+
+/*Centrer la zone de saisie des opertions + couleur*/
+#operation {
+  height: 25px;
+  width: 210px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: inherit;
+}
+
+/*Centrer la zone de saisie des résultats + couleur*/
+#result {
+  height: 25px;
+  width: 210px;
+  position: relative;
+  top: 10px;
+  text-align: right;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: inherit;
+}
+
+/*Police et taille*/
+#operation {
+  font-size: inherit;
+}
+
+#result {
+  font-size: inherit;
+}
+
+#screen {
+  font-size: large;
+}
+
+/*************************************LES TOUCHES************************************/
+
+/*Dimension des touches*/
+td {
+  height: 35px;
+  width: 40px;
+}
+
+/*Centrer le tableau*/
+table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 5px;
+}
+
+/*Bordure des touches*/
+td {
+  border-style: solid;
+  border-width: 1px;
+  border-bottom-width: 4px;
+  border-left-width: 3px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
+
+/*Elargir les boîtes*/
+td {
+  width: 38px;
+}
+
+/*Centrer le contenu des boites*/
+td {
+  text-align: center;
+}
+
+/*Espace entre les touches*/
+table {
+  border-spacing: 8px 15px;
+}
+
+/*couleur des touches*/
+td {
+  background-color: rgb(243, 241, 241);
+}
+
+/*Ecriture en gras*/
+td {
+  font-weight: bold;
+}
+
+/*Bouton Allumer-Eteindre en rouge*/
+#toucheSpeciale {
+  background-color: rgb(226, 84, 84);
+}
+
+/*Taille des touches*/
+button {
+  border-width: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: inherit;
+  width: 34px;
+  height: 28px;
+}
+
+/*Agrandir les plus petits symboles*/
+button.small {
+  font-size: 17px;
+}
+
+/*************************************LA MARQUE************************************/
+
+h1 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 25px;
+  text-align: right;
+  font-size: 30px;
+}
